@@ -30,3 +30,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+.uppercase {
+  text-transform: uppercase
+}
+
+.stock-header p{
+  display: inline-flex;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #eff1f4;
+}
+
+.stock-item p{
+  display: inline-flex;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #eff1f4;
+}
+
+.stock-name {
+  width: 75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.stock-price {
+  width: 75px;
+}
+
+.stock-last-update{
+  width: 200px;
+}
+
+.stock-price.up{
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+}
+
+.stock-price.down{
+  background-color: rgba(255, 101, 101, 0.1);
+  color: #ff6565;
+}
